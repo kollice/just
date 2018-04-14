@@ -24,6 +24,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "header": false,
                 "height": 100,
                 "itemId": "headerPanel",
                 "layout|region": "north",
@@ -44,7 +45,7 @@
                 "layout|region": "west",
                 "layout|split": true,
                 "store": "MenuStore",
-                "title": "Panel",
+                "title": "功能列表",
                 "width": 231
             },
             "name": "MyTreePanel",

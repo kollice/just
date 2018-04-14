@@ -35,6 +35,7 @@ Ext.define('Just.view.MyViewport', {
             region: 'north',
             height: 100,
             itemId: 'headerPanel',
+            header: false,
             title: 'Header'
         },
         {
@@ -43,7 +44,7 @@ Ext.define('Just.view.MyViewport', {
             split: true,
             itemId: 'menuPanel',
             width: 231,
-            title: 'Panel',
+            title: '功能列表',
             store: 'MenuStore',
             viewConfig: {
                 itemId: 'treeMenu'
