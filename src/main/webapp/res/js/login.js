@@ -8,9 +8,11 @@ $(function () {
 
     $('.login-btn').click(function () {
         console.log($('#username').val());
-        $.post("/dologin", {username: $('#username').val(), password: $('#password').val()}, function (resp) {
-            var result = JSON.parse(resp);
-            console.log(result);
+        $.post("/dologin", {username: $('#username').val(), password: $('#password').val()}, function (result) {
+
+            if (result.success === true) {
+                window.navigator = "main";
+            }
         });
     })
 })
