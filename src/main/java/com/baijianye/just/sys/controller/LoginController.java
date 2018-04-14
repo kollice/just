@@ -23,9 +23,4 @@ public class LoginController {
         result.put("success", true);
         return result;
     }
-
-    @GetMapping("/main")
-    public String main() {
-        return "/Just/index";
-    }
 }

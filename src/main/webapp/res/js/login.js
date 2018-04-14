@@ -11,7 +11,7 @@ $(function () {
         $.post("/dologin", {username: $('#username').val(), password: $('#password').val()}, function (result) {
 
             if (result.success === true) {
-                window.navigator = "main";
+                window.location.href="Just/index.html";
             }
         });
     })
